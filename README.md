@@ -71,3 +71,8 @@ Estando conectado na instancia execute o comando
 nohup busybox httpd -f -p 8080 &
 ```
 
+## Executando o Ansible 
+
+```bash
+  playbook.yml -u ubuntu --private-key iac-rodrigues.pem -i hosts.yml
+```
